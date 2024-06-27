@@ -1,0 +1,11 @@
+Server Side Validation: done in backend which can't be reached so basically JOI is used to do so.
+JOI: it is a package actually the most powerfull one. It is a schema descriptive language. And hence validates the data
+ first step: define the schema
+ second step: wherever it is used, it has to be validated
+
+ Session: it is a server-side storage. and SSS are more sequre. So, the sensitive information which may cause
+          harm if left un protected, they are stored in Session. 
+
+Session also stores key-valu pairs like cookies
+
+So, now every time a response is sent, in form of cookies, it is sent with a unique session id.
